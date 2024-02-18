@@ -1,10 +1,9 @@
-package co.edu.uniquindio.SOLID.SOLID;
+package co.edu.uniquindio.SOLID.SOLID.L;
 
-import co.edu.uniquindio.SOLID.SOLID.S.Cliente;
+
 
 public class Estudiante extends Cliente {
     private int semestreCursado;
-    private double descuentoBase;
 
     /*Constructor*/
     public Estudiante() {
@@ -19,11 +18,8 @@ public class Estudiante extends Cliente {
         this.semestreCursado = semestreCursado;
     }
 
-    public double getDescuentoBase() {
-        return descuentoBase;
-    }
-
-    public void setDescuentoBase(double descuentoBase) {
-        this.descuentoBase = descuentoBase;
+    @Override
+    public double valorDescuento() {
+        return 8000;
     }
 }

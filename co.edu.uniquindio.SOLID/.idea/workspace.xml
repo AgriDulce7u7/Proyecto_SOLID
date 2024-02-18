@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa554844-56a1-40c9-b7d9-68898e062f10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/S/DetalleFactura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/Agua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/O/Agua.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/O/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/BebidaAlcoholica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/O/BebidaAlcoholica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/BebidaAzucarada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/BebidaAzucarada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/DetalleFactura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/Enum/TipoBebidaAlcoholica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/O/Enum/TipoBebidaAlcoholica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/S/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/S/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/L/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/L/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/L/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/SOLID/SOLID/L/Profesor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +61,13 @@
       <recent name="C:\Users\Agri\Documents\Universidad\Programación 2\Programacion_2\Proyecto_SOLID\co.edu.uniquindio.SOLID\src\main\java\co\edu\uniquindio\SOLID\Model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.edu.uniquindio.SOLID.SOLID.L" />
       <recent name="co.edu.uniquindio.SOLID.SOLID.O" />
       <recent name="co.edu.uniquindio.SOLID.Services" />
       <recent name="co.edu.uniquindio.SOLID.Model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.co.edu.uniquindio.SOLID.SOLID.L.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.SOLID.SOLID.O.Main" />
       <module name="co.edu.uniquindio.SOLID" />
@@ -85,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="co.edu.uniquindio.SOLID.SOLID.L.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.SOLID.SOLID.L.Main" />
+      <module name="co.edu.uniquindio.SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.SOLID.SOLID.L.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.co.edu.uniquindio.SOLID.SOLID.L.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708286418007</updated>
-      <workItem from="1708286419161" duration="7119000" />
+      <workItem from="1708286419161" duration="8698000" />
     </task>
     <servers />
   </component>
