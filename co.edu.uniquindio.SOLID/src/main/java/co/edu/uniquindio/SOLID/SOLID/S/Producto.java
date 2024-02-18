@@ -1,4 +1,4 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID.S;
 
 public class Producto {
     private String nombre;
@@ -39,5 +39,4 @@ public class Producto {
     public double calcularPrecio() {
         return 0.0;
     }
-
 }

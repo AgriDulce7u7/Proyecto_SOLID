@@ -1,6 +1,7 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID;
 
 
+import co.edu.uniquindio.SOLID.SOLID.S.Producto;
 import co.edu.uniquindio.SOLID.Services.IFruta;
 
 public class Fruta extends Producto implements IFruta {

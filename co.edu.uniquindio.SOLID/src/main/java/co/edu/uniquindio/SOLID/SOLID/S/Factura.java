@@ -1,4 +1,6 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID.S;
+
+import co.edu.uniquindio.SOLID.SOLID.DetalleFactura;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,17 +90,5 @@ public class Factura {
         }
         totalFactura = acumuladoFactura - (acumuladoFactura * descuento);
         setTotalFactura(totalFactura);
-    }
-
-    public void calcularTotalProductos() {
-        double acumuladoProductos = 0.0;
-        double cantidadProductosDetalle = 0.0;
-        for (DetalleFactura detalleFactura : getListaDetallesFacturas()) {
-            cantidadProductosDetalle = detalleFactura.getCantidad();
-            acumuladoProductos = acumuladoProductos + cantidadProductosDetalle;
-            cantidadProductosDetalle = 0.0;
-
-        }
-        setTotalProducto(acumuladoProductos);
     }
 }

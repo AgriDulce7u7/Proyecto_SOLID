@@ -1,24 +1,22 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID;
 
-public class Dulce extends Producto{
-    private double impuestoBase;
+public class BebidaAzucarada extends Bebida {
+    private double impuestoBasico;
     private int contenidoAzucar;
     private double impuestoAdicional;
 
-
-
     /*Constructor*/
-    public Dulce() {
-
+    public BebidaAzucarada() {
     }
 
-    /*Getters and setters*/
-    public double getImpuestoBase() {
-        return impuestoBase;
+
+    /*Getters and Setters*/
+    public double getImpuestoBasico() {
+        return impuestoBasico;
     }
 
-    public void setImpuestoBase(double impuestoBase) {
-        this.impuestoBase = impuestoBase;
+    public void setImpuestoBasico(double impuestoBasico) {
+        this.impuestoBasico = impuestoBasico;
     }
 
     public int getContenidoAzucar() {
@@ -37,15 +35,16 @@ public class Dulce extends Producto{
         this.impuestoAdicional = impuestoAdicional;
     }
 
+
     @Override
     public double calcularPrecio() {
         int precioBase = getValor();
         double impuestoFinal = 0.0;
-        if (contenidoAzucar > 50) {
-            impuestoFinal = impuestoBase + impuestoAdicional;
+        if (contenidoAzucar > 35) {
+            impuestoFinal = impuestoBasico + impuestoAdicional;
         }
         else {
-            impuestoFinal = impuestoBase;
+            impuestoFinal = impuestoBasico;
         }
         return precioBase * (1 + impuestoFinal);
     }

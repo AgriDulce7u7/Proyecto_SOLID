@@ -1,4 +1,8 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID;
+
+import co.edu.uniquindio.SOLID.SOLID.S.Dulce;
+import co.edu.uniquindio.SOLID.SOLID.S.Factura;
+import co.edu.uniquindio.SOLID.SOLID.S.Producto;
 
 public class DetalleFactura {
     private int cantidad;

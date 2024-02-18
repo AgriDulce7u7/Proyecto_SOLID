@@ -1,6 +1,6 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID.S;
 
-import co.edu.uniquindio.SOLID.Services.ICafeteria;
+import co.edu.uniquindio.SOLID.SOLID.S.Services.ICafeteria;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,15 +60,6 @@ public class Cafeteria implements ICafeteria {
     }
 
     @Override
-    public void crearDetalleFactura(Factura factura, Producto producto, int cantidad) {
-        DetalleFactura detalleFactura = new DetalleFactura();
-        detalleFactura.setProductoAsociado(producto);
-        detalleFactura.setCantidad(cantidad);
-        factura.getListaDetallesFacturas().add(detalleFactura);
-        detalleFactura.setOwnedByFactura(factura);
-    }
-
-    @Override
     public Cliente obtenerCliente(String cedula) {
         Cliente clienteEncontrado = null;
         for (Cliente cliente : getListaClientes()) {
@@ -91,10 +82,5 @@ public class Cafeteria implements ICafeteria {
     @Override
     public void calcularTotalFactura(Factura factura) {
         factura.calcularTotal();
-    }
-
-    @Override
-    public void calcularTotalProductos(Factura factura) {
-        factura.calcularTotalProductos();
     }
 }

@@ -1,6 +1,7 @@
 package co.edu.uniquindio.SOLID;
 
-import co.edu.uniquindio.SOLID.Model.*;
+import co.edu.uniquindio.SOLID.SOLID.*;
+import co.edu.uniquindio.SOLID.SOLID.S.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID;
 
 public class Agua extends Bebida{
 

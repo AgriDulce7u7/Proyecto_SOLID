@@ -1,9 +1,10 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID;
 
 
-import co.edu.uniquindio.SOLID.Model.Enum.TipoProfesor;
+import co.edu.uniquindio.SOLID.SOLID.Enum.TipoProfesor;
+import co.edu.uniquindio.SOLID.SOLID.S.Cliente;
 
-public class Profesor extends Cliente{
+public class Profesor extends Cliente {
     private TipoProfesor tipoProfesor;
 
     /*constructor*/

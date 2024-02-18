@@ -1,4 +1,4 @@
-package co.edu.uniquindio.SOLID.Model.Enum;
+package co.edu.uniquindio.SOLID.SOLID.Enum;
 
 public enum TipoBebidaAlcoholica {
     NACIONAL, IMPORTADA

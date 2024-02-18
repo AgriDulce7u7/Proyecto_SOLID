@@ -1,4 +1,4 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID.S;
 
 public class Cliente {
     private String cedula;
@@ -50,5 +50,10 @@ public class Cliente {
 
     public void setOwnedByCafeteria(Cafeteria ownedByCafeteria) {
         this.ownedByCafeteria = ownedByCafeteria;
+    }
+
+    /* Método para  calcular  descuento */
+    public double calcularDescuento() {
+        return 0.0;
     }
 }

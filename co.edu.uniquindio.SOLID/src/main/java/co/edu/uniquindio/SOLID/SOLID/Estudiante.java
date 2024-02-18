@@ -1,6 +1,8 @@
-package co.edu.uniquindio.SOLID.Model;
+package co.edu.uniquindio.SOLID.SOLID;
 
-public class Estudiante extends Cliente{
+import co.edu.uniquindio.SOLID.SOLID.S.Cliente;
+
+public class Estudiante extends Cliente {
     private int semestreCursado;
     private double descuentoBase;
 
