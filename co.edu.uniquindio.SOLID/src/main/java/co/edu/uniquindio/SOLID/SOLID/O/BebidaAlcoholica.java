@@ -1,9 +1,9 @@
-package co.edu.uniquindio.SOLID.SOLID;
+package co.edu.uniquindio.SOLID.SOLID.O;
 
 
-import co.edu.uniquindio.SOLID.SOLID.Enum.TipoBebidaAlcoholica;
+import co.edu.uniquindio.SOLID.SOLID.O.Enum.TipoBebidaAlcoholica;
 
-public class BebidaAlcoholica extends Bebida{
+public class BebidaAlcoholica extends Bebida {
     private int gradoAlcohol;
     private TipoBebidaAlcoholica tipoBebidaAlcoholica;
 

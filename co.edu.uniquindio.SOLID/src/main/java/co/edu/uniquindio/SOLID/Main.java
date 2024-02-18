@@ -1,6 +1,8 @@
 package co.edu.uniquindio.SOLID;
 
 import co.edu.uniquindio.SOLID.SOLID.*;
+import co.edu.uniquindio.SOLID.SOLID.O.Agua;
+import co.edu.uniquindio.SOLID.SOLID.O.BebidaAlcoholica;
 import co.edu.uniquindio.SOLID.SOLID.S.*;
 
 public class Main {

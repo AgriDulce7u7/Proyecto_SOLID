@@ -1,6 +1,8 @@
-package co.edu.uniquindio.SOLID.SOLID;
+package co.edu.uniquindio.SOLID.SOLID.O;
 
-public class Agua extends Bebida{
+import co.edu.uniquindio.SOLID.SOLID.O.Bebida;
+
+public class Agua extends Bebida {
 
     /*Constructor*/
     public Agua() {
