@@ -1,8 +1,6 @@
-package co.edu.uniquindio.SOLID.SOLID;
+package co.edu.uniquindio.SOLID.SOLID.I;
 
-
-import co.edu.uniquindio.SOLID.SOLID.S.Producto;
-import co.edu.uniquindio.SOLID.Services.IFruta;
+import co.edu.uniquindio.SOLID.SOLID.I.Services.IFruta;
 
 public class Fruta extends Producto implements IFruta {
     private final double PRECIO_BASE = 7.0;
