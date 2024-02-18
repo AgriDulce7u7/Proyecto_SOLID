@@ -78,6 +78,7 @@ public class Factura {
                 '}';
     }
 
+    /* Método para calcular el total de la factura */
     public void calcularTotal() {
         double acumuladoFactura = 0.0;
         double valorTotalDetalle = 0.0;

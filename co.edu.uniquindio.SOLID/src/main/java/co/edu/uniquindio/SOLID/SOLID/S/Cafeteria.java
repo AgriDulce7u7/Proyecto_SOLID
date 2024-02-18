@@ -16,7 +16,6 @@ public class Cafeteria implements ICafeteria {
     }
 
     /*Getters and Setters*/
-
     public String getNombre() {
         return nombre;
     }
@@ -57,26 +56,6 @@ public class Cafeteria implements ICafeteria {
         factura.setNumeroFactura(numeroFactura);
         factura.setOwnedByCafeteria(cafeteria);
         return factura;
-    }
-
-    @Override
-    public Cliente obtenerCliente(String cedula) {
-        Cliente clienteEncontrado = null;
-        for (Cliente cliente : getListaClientes()) {
-            if (cliente.getCedula().equalsIgnoreCase(cedula)) {
-                clienteEncontrado = cliente;
-                break;
-            }
-        }
-        return clienteEncontrado;
-    }
-
-    @Override
-    public Producto obtenerProducto(String nombre) {
-        return getListaProductos().stream()
-                .filter(producto -> producto.getNombre().equalsIgnoreCase(nombre))
-                .findFirst()
-                .orElse(null);
     }
 
     @Override
