@@ -1,6 +1,5 @@
-package co.edu.uniquindio.SOLID.SOLID;
+package co.edu.uniquindio.SOLID.SOLID.D;
 
-import co.edu.uniquindio.SOLID.SOLID.S.Producto;
 
 public class Panaderia extends Producto {
     private boolean conservantes;

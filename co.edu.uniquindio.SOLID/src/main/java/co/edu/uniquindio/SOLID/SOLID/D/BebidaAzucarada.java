@@ -1,6 +1,5 @@
-package co.edu.uniquindio.SOLID.SOLID;
+package co.edu.uniquindio.SOLID.SOLID.D;
 
-import co.edu.uniquindio.SOLID.SOLID.O.Bebida;
 
 public class BebidaAzucarada extends Bebida {
     private double impuestoBasico;
